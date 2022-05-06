@@ -8,7 +8,7 @@ export default class Footer extends Component {
   }
 
   handleClearAllDone = () => {
-    if (window.confirm('确认全部删除')) {
+    if (window.confirm('确认删除')) {
       this.props.clearAllDone();
     }
   }
